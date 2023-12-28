@@ -1,18 +1,20 @@
 <script setup></script>
 
-<template></template>
+<template>
+  <div>
+    <img className="mobilePatern" src="./assets/pattern-bg-mobile.png" />
+    <h1 className="headerText">Buscador de Endereços</h1>
+  </div>
+</template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.mobilePatern {
+  position: relative;
+  margin-bottom: 400px;
+  height: 280px;
+  width: 375px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.headerText {
+  position: absolute;
 }
 </style>
